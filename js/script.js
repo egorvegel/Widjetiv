@@ -121,7 +121,7 @@ $(function () {
 	})
 
 
-
+	// !Load animation
 	const animItems = $('.anim_item');
 	if (animItems.length > 0) {
 		$(window).on('scroll', animOnScroll);
